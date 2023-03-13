@@ -1,0 +1,55 @@
+.portfolio {
+    padding: 100px 0;
+}
+
+.portfolio .inner {
+    width: 1230px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.portfolio .inner figure {
+    padding: 0 15px;
+}
+
+.port_slide {
+    margin: 0 -15px;
+}
+
+
+
+
+
+
+
+
+
+
+.product {
+    padding: 100px 0;
+    background: #f9f9f9;
+}
+
+.product .inner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.product .inner .left {
+    flex: 2;
+    overflow: hidden;
+}
+
+.product .inner .left figure {
+    padding: 0 15px;
+}
+
+.product_slide {
+    margin: 0 -15px;
+}
+
+.product .inner .right {
+    flex: 1;
+}

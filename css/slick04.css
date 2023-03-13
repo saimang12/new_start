@@ -1,0 +1,86 @@
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.synce {
+    padding: 100px 0;
+    background: url(../img/section2_bg.jpg) repeat-x;
+}
+
+.synce_wrap {
+    display: flex;
+    margin: 0 0 0 auto;
+    gap: 60px;
+    overflow: hidden;
+    width: calc((1200px + (100% - 1200px) / 2));
+}
+
+.synce_wrap .left {
+    width: 400px;
+
+}
+
+.synce_wrap .left_slide img {}
+
+.synce_wrap .right {
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    z-index: 999;
+}
+
+
+.left_slide img {
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.2);
+    margin: 0 0 40px 0;
+}
+
+.left_slide .slick-list {
+    overflow: visible;
+}
+
+.right_slide {
+    margin: auto -100px 0 -15px;
+}
+
+.right_slide figure {
+    padding: 0 15px;
+}
+
+.bar {
+    position: relative;
+    width: 740px;
+    height: 10px;
+    background: #fff;
+    margin: 10px 0;
+}
+
+.bar span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background: tomato;
+    transition: left .5s;
+}
+
+.bar2 {
+    position: relative;
+    width: 740px;
+    height: 10px;
+    background: #fff;
+}
+
+.bar2 span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background: tomato;
+    transition: left .5s;
+}

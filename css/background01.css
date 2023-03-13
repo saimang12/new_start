@@ -1,0 +1,55 @@
+.sec {
+    height: 50vh;
+    margin: 100px;
+    padding: 100px;
+    border: 30px solid transparent;
+}
+
+.bg01 {
+    position: relative;
+    background-image: url(../img/mainvisual01.jpg);
+}
+
+.bg01 .position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: tomato;
+}
+
+.bg02 {
+    background-image: url(../img/grafflogo.png);
+}
+
+.bg03 {
+    background-image: url(../img/grafflogo.png);
+    background-repeat: repeat-y;
+}
+
+.bg04 {
+    background-image: url(../img/grafflogo.png);
+    background-repeat: no-repeat;
+    background-color: tomato;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bg05 {
+    background-image: url(../img/grafflogo.png);
+    background-repeat: no-repeat;
+    background-color: tomato;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.bg06 {
+    background: url(../img/grafflogo.png) no-repeat center center/cover;
+    border: none;
+}
+
+.bg07 {
+    background: url(../img/mainvisual01.jpg) no-repeat fixed center center/cover;
+}

@@ -1,0 +1,60 @@
+.main_event {
+    padding: 100px 0;
+}
+
+.main_event h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.main_event p {
+    font-size: 15px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.main_event .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_event .inner figure {
+    flex: 1;
+}
+
+.main_event .inner .box {
+    margin: 0 0 30px 0;
+}
+
+.main_event .inner .desc {
+    font-size: 15px;
+    text-align: center;
+}
+
+.main_event .test {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) skew(-15deg);
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border: none;
+}
+
+.main_event .btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    /* transform: skew(-15deg); */
+    color: #fff;
+    border: none;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
